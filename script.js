@@ -76,7 +76,7 @@ next_button.addEventListener('click',()=>{
             // show final answer
             current_question_number = 0;
             localStorage.setItem("score", score);
-            location.href = "./resultPage.html";
+            location.href = "resultPage.html";
     
         }else{
             //show next question
